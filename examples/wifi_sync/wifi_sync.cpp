@@ -29,8 +29,8 @@
 
 #define DBG_OUTPUT_PORT Serial
 
-const char *ssid = "GL-MT1300-44e";
-const char *password = "88888888";
+const char *ssid = "FabIot";
+const char *password = "LV3Fru77";
 const char *host = "lilygo";
 
 WebServer server(80);

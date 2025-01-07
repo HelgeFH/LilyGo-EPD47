@@ -12,16 +12,6 @@
 #include "image/logo.h"
 #include "pins.h"
 
-#if defined(T5_47_PLUS)
-#include "pcf8563.h"
-#include <Wire.h>
-#endif
-
-
-#if defined(T5_47_PLUS)
-PCF8563_Class rtc;
-#endif
-
 int vref = 1100;
 
 void setup()
